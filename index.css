@@ -1,0 +1,145 @@
+body {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow-x:hidden;
+} 
+.heading { 
+    text-align:center; 
+} 
+#addTxt { 
+    width : 700px; 
+    height: 150px; 
+    border: 5px inset black; 
+    border-radius: 15px; 
+    padding:5px; 
+} 
+.content { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+}
+.footer{
+    margin-top: auto;
+    padding: 30px 0 10px 0;
+    background:#000;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+}
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+}
+.footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+    
+.footer .row a:hover{
+    color:#fff;
+}
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+.addBtn { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding:10px; 
+} 
+#addBtn{ 
+    width : 80px; 
+    height: 30px; 
+    background-color:rgb(177, 176, 176); 
+    border: 1px solid rgb(60, 60, 60); 
+    border-radius:20px; 
+    font-size: 15px; 
+}
+#addBtn:hover { 
+    background-color:rgb(255, 92, 92);
+    transition: 0.5s ease-in-out;
+}
+@media (max-width:720px){
+.footer{
+    text-align:center;
+    padding:5%;
+}
+.footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+}
+.footer .row a i{
+    margin:0% 3%;
+} }
+
+@media (max-width:600px) {      /* Media query for devices with a width of less than or equal to 600px */ 
+body {                          /* Reduce the font size and change the color scheme */ 
+    font-size:15px;
+    color:black; 
+    background-color:white;
+}
+
+#addTxt {                        /* Reduce the width and height of the textarea */ 
+    width :400px; 
+    height :100px; 
+}
+.content {                       /* Stack the elements vertically */ 
+    flex-direction : column;
+} 
+#addBtn{                         /* Reduce the width and height of the button */
+    width :60px; 
+    height :25px;
+    font-size: 12.5px;
+} }
+ 
+@media (min-width:600px) and (max-width:1200px) {   /* Media query for devices with a width between 600px and 1200px */
+body {                                              /* Change the color scheme */ 
+    color:black; 
+    background-color:white; 
+}
+#addTxt {                                           /* Keep the same width and height of the textarea */
+    width :550px; 
+    height :150px; 
+}
+.content {                                          /* Keep the same flex direction */ 
+    flex-direction : row; 
+}
+#addBtn{                                            /* Keep the same width and height of the button */
+    width :80px; 
+    height :30px; 
+} }
+
+@media (min-width:1200px) {                         /* Media query for devices with a width greater than 1200px */ 
+body {                                              /* Change the color scheme */
+    color:black; 
+    background-color:white; 
+}
+#addTxt {                                           /* Increase the width and height of the textarea */
+    width :900px; 
+    height :200px; 
+}
+.content {                                          /* Keep the same flex direction */
+    flex-direction : row; 
+}
+#addBtn{                                            /* Increase the width and height of the button */
+    width :80px; 
+    height :30px; 
+} }
