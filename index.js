@@ -27,7 +27,7 @@ function showNotes() {
     <style>
     .card {
     display : inline-block;
-    width : 370px;
+    width : 350px;
     margin: 11px;
     }
     .note {
@@ -36,6 +36,9 @@ function showNotes() {
     border-radius:10px;
     overflow:auto;
     padding:5px;
+    &:hover {
+      background-color: rgb(208, 208, 208);
+    }
     }
     </style>
     </head>

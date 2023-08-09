@@ -53,12 +53,12 @@ body {
 }
 .footer .row a{
     text-decoration:none;
-    color:gray;
+    color:rgb(90, 90, 90);
     transition:0.5s;
 }
     
 .footer .row a:hover{
-    color:#fff;
+    color: white;
 }
 .footer .row a i{
     font-size:2em;
@@ -107,6 +107,7 @@ body {                          /* Reduce the font size and change the color sch
     width :400px; 
     height :100px; 
 }
+
 .content {                       /* Stack the elements vertically */ 
     flex-direction : column;
 } 
