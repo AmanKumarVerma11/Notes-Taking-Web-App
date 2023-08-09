@@ -39,17 +39,18 @@ body {
     bottom: 0;
 }
 .footer{
-    padding: 30px 0 10px 0;
+    padding: 10px 0 5px 0;
     background:#000;
     font-family: 'Play', sans-serif;
     text-align:center;
+    margin-top: 20px;
 }
 .footer .row{
     width:100%;
     margin:1% 0%;
     padding:0.6% 0%;
     color:gray;
-    font-size:0.8em;
+    font-size: 1rem;
 }
 .footer .row a{
     text-decoration:none;
@@ -73,13 +74,13 @@ body {
 #addBtn{ 
     width : 80px; 
     height: 30px; 
-    background-color:rgb(177, 176, 176); 
+    background-color:rgb(192, 192, 192); 
     border: 1px solid rgb(60, 60, 60); 
     border-radius:20px; 
     font-size: 15px; 
 }
 #addBtn:hover { 
-    background-color:rgb(255, 92, 92);
+    background-color:rgb(92, 214, 255);
     transition: 0.5s ease-in-out;
 }
 @media (max-width:720px){
