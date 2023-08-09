@@ -28,7 +28,7 @@ function showNotes() {
     .card {
     display : inline-block;
     width : 350px;
-    margin: 11px;
+    margin: 10px;
     }
     .note {
     height: 100px;
@@ -38,6 +38,15 @@ function showNotes() {
     padding:5px;
     &:hover {
       background-color: rgb(208, 208, 208);
+    }
+    }
+    button {
+    border: 1px solid black;
+    border-radius:10px;
+    padding:5px;
+    background-color: rgb(208, 208, 208);
+    &:hover {
+      background-color: rgb(255, 92, 92);
     }
     }
     </style>
